@@ -291,21 +291,23 @@ def app(**kwargs):
 
         # gr.HTML(
         #     """
-        #     <div align='center'> <h1>Dataset Browser For <a href="https://github.com/OpenGVLab/all-seeing">All-Seeing Project</h> </div>
+        #     <div style='float:left;' align='center'> <h1>The All-Seeing-1B (AS-1B) dataset Browser</h></div><img style='float:left;' width='50' src="https://img1.imgtp.com/2023/08/04/NlYQQUuj.png">
         #     """,
         # )
         gr.HTML(
             """
-            <div align='center'> <h1>The All-Seeing-1B(AS-1B) dataset Browser</h> </div>
+            <div align='center'>
+                <div style="display: inline-block;">
+                    <h1 style="">The All-Seeing-1B (AS-1B) dataset Browser</h>
+                </div>
+                <div style="display: inline-block; vertical-align: bottom;">
+                    <img width='60' src="https://img1.imgtp.com/2023/08/04/NlYQQUuj.png">
+                </div>
+            </div>
             """,
         )
-        # gr.HTML(
-        #     """
-        #     <div align='center'> <h1>Dataset Browser For <p align="center"><a href="https://github.com/OpenGVLab/all-seeing"><b>All-Seeing Project</b></p></h> </div>
-        #     <p align="center">AS-1B contains over 1 billion regions annotated with semantic tags, question-answering pairs, and detailed captions. It covers a wide range of 3.5 million common and rare concepts in the real world, and has 132.2 billion tokens that describe the concepts and their attributes.</p>
-        #     <p align="center"><a href="https://github.com/OpenGVLab/all-seeing"><b>All-Seeing Project</b></p>
-        #     """,
-        # )
+        # gr.Markdown('The All-Seeing-1B (AS-1B) dataset Browser <img width="60" alt="image" src="https://img1.imgtp.com/2023/08/04/NlYQQUuj.png">')
+
         with gr.Row(visible=True) as user_interface:
             with gr.Column(scale=0.5, elem_id="text_input") as chat_part:
                 with gr.Row(visible=True) as semantic_tag:
@@ -328,7 +330,7 @@ def app(**kwargs):
                 # save_btn = gr.Button(value="Save", variant="primary", elem_id="save_btn")
 
         with  gr.Row(visible=True) as gallery_row:
-            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 8,allow_preview =False,height=385)
+            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 8,allow_preview =False,height=360)
 
         # add_img_example.click(bot.add_image, [user_state], [click_img,user_state]).then(
         #     lambda: None, None, question).then(
