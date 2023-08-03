@@ -289,9 +289,14 @@ def app(**kwargs):
 
         user_state = gr.State({})
 
+        # gr.HTML(
+        #     """
+        #     <div align='center'> <h1>Dataset Browser For <a href="https://github.com/OpenGVLab/all-seeing">All-Seeing Project</h> </div>
+        #     """,
+        # )
         gr.HTML(
             """
-            <div align='center'> <h1>Dataset Browser For <a href="https://github.com/OpenGVLab/all-seeing">All-Seeing Project</h> </div>
+            <div align='center'> <h1>The All-Seeing-1B(AS-1B) dataset Browser</h> </div>
             """,
         )
         # gr.HTML(
@@ -323,7 +328,7 @@ def app(**kwargs):
                 # save_btn = gr.Button(value="Save", variant="primary", elem_id="save_btn")
 
         with  gr.Row(visible=True) as gallery_row:
-            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 4,allow_preview =False,height=385)
+            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 8,allow_preview =False,height=385)
 
         # add_img_example.click(bot.add_image, [user_state], [click_img,user_state]).then(
         #     lambda: None, None, question).then(

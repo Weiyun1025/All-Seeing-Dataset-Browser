@@ -1,1 +1,18 @@
-{"sa_1644.jpg": "./annotations/sa_1644.json", "sa_8214.jpg": "./annotations/sa_8214.json", "sa_578.jpg": "./annotations/sa_578.json", "sa_2240.jpg": "./annotations/sa_2240.json", "sa_8263.jpg": "./annotations/sa_8263.json"}
+{
+    "sa_1644.jpg": "./annotations/sa_1644.json",
+    "sa_2518.jpg": "./annotations/sa_2518.json",
+    "sa_562.jpg": "./annotations/sa_562.json",
+    "sa_6385.jpg": "./annotations/sa_6385.json",
+    "sa_1131.jpg": "./annotations/sa_1131.json",
+    "sa_6839.jpg": "./annotations/sa_6839.json",
+    "sa_8214.jpg": "./annotations/sa_8214.json",
+    "sa_8704.jpg": "./annotations/sa_8704.json",
+    "sa_8522.jpg": "./annotations/sa_8522.json",
+    "sa_578.jpg": "./annotations/sa_578.json",
+    "sa_8995.jpg": "./annotations/sa_8995.json",
+    "sa_8634.jpg": "./annotations/sa_8634.json",
+    "sa_2240.jpg": "./annotations/sa_2240.json",
+    "sa_5014.jpg": "./annotations/sa_5014.json",
+    "sa_8263.jpg": "./annotations/sa_8263.json",
+    "sa_819.jpg": "./annotations/sa_819.json"
+}
