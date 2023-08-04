@@ -303,7 +303,7 @@ def app(**kwargs):
                 <div style="display: inline-block; vertical-align: bottom;">
                     <img width='60' src="/file=./assets/logo.png">
                 </div>
-                <div style="font-size:x-large">
+                <div style="font-size:large">
                     <a href="https://github.com/OpenGVLab/all-seeing">Github</a>&nbsp;&nbsp;&nbsp;
                     <a href="https://arxiv.org/abs/2308.01907">Paper</a>&nbsp;&nbsp;&nbsp;
                 </div>
