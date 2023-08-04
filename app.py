@@ -301,7 +301,11 @@ def app(**kwargs):
                     <h1 style="">The All-Seeing-1B (AS-1B) dataset Browser</h>
                 </div>
                 <div style="display: inline-block; vertical-align: bottom;">
-                    <img width='60' src="https://huggingface.co/spaces/OpenGVLab/all-seeing/resolve/main/assets/logo.png">
+                    <img width='60' src="/file=./assets/logo.png">
+                </div>
+                <div style="font-size:x-large">
+                    <a href="https://github.com/OpenGVLab/all-seeing">Github</a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://arxiv.org/abs/2308.01907">Paper</a>&nbsp;&nbsp;&nbsp;
                 </div>
             </div>
             """,
