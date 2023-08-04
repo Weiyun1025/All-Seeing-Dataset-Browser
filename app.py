@@ -334,7 +334,7 @@ def app(**kwargs):
                 # save_btn = gr.Button(value="Save", variant="primary", elem_id="save_btn")
 
         with  gr.Row(visible=True) as gallery_row:
-            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 8,allow_preview =False,height=360)
+            gallery  = gr.Gallery(bot.gallery_show_paths ,label = "Image Gallery",columns = 8,allow_preview =False,height=383)
 
         # add_img_example.click(bot.add_image, [user_state], [click_img,user_state]).then(
         #     lambda: None, None, question).then(
