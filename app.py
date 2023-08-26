@@ -303,9 +303,9 @@ def app(**kwargs):
                 <div style="display: inline-block; vertical-align: bottom;">
                     <img width='60' src="/file=./assets/logo.png">
                 </div>
-                <div style="font-size:large">
-                    <a href="https://github.com/OpenGVLab/all-seeing">Github</a>&nbsp;&nbsp;&nbsp;
-                    <a href="https://arxiv.org/abs/2308.01907">Paper</a>&nbsp;&nbsp;&nbsp;
+                <div style='display:flex; align-items: center; justify-content: center; gap: 0.25rem; '>
+                    <a href='https://github.com/OpenGVLab/all-seeing'><img src='https://img.shields.io/badge/Github-Code-blue'></a>
+                    <a href='https://arxiv.org/abs/2308.01907'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
                 </div>
             </div>
             """,
